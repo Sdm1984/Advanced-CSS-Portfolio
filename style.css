@@ -1,14 +1,27 @@
 * body {
   margin: 0;
-  color: #9c0b62;
+  color: #250418;
   background:whitesmoke;
   font-family: 'Times New Roman', Times, serif;
   padding: 0;
   box-sizing: border-box;
 }
 
+.nav image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background: size 50px;
+  min: height 380px;px; 
+  position: relative;
+}
+
+.nav links {
+  overflow: hidden;
+  background-color: black;
+}
+
 .Avatar {
-  border-color: rgb(163, 9, 112)
+  border-style:dashed;
    
   }
 
@@ -29,7 +42,7 @@
   justify-content: space-around
   margin-right: 20px
   width: 30%;
-  
+   
 }
  
 .footer {
