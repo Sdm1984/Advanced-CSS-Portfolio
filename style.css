@@ -11,20 +11,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background: size 50px;
-  min: height 380px;px; 
+  min: height 25px; 
   position: relative;
 }
 
-.nav-links {
-  overflow: hidden;
-  background-color: black;
-}
 
 .Avatar {
-  border-style:dashed;
-
-   
-  }
+   border-color: black;
+}
 
 .logo{
   color: #ce599d;
@@ -36,9 +30,10 @@
 .nav-links {
   background: #ac4482;
   display: flex; 
-  justify-content: space-around;
-  margin-right: 50px;
-  width: 30%;
+  justify-content:space-around;
+  margin-right: 200px;
+  width: 100%;
+  overflow: hidden;
    
 }
  
