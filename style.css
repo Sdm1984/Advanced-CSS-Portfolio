@@ -15,18 +15,15 @@
   position: relative;
 }
 
-.nav links {
+.nav-links {
   overflow: hidden;
   background-color: black;
 }
 
 .Avatar {
   border-style:dashed;
-   
-  }
 
-.header, {
-  float:left;
+   
   }
 
 .logo{
@@ -36,11 +33,11 @@
   font-size: large;
 }
 
-.nav links{
-  background: #ac4482
+.nav-links {
+  background: #ac4482;
   display: flex; 
-  justify-content: space-around
-  margin-right: 20px
+  justify-content: space-around;
+  margin-right: 50px;
   width: 30%;
    
 }
