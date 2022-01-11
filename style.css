@@ -146,9 +146,8 @@ font-weight: bold;
 font-size: 35px;
 
 }
-@media screen and (max-width: 700px) {
-main,
+@media screen and (max-width: 800px) {
+main, .project-2, .project-3,.project-4, .project-5
 nav{
-  flex-direction: column;
-   }
+  width: 100%; }
 }
