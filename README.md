@@ -27,9 +27,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 <img src="Screenshot.png"> 
 
 
-## Review
-You are required to submit BOTH of the following for review:
+## You are required to submit BOTH of the following for review:
 
-The URL of the deployed application: 
+### The URL of the deployed application: 
+https://sdm1984.github.io/Advanced-CSS-Portfolio/
 
-The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+### The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+https://github.com/Sdm1984/Advanced-CSS-Portfolio
