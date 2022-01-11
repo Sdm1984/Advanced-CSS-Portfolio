@@ -1,6 +1,6 @@
 * body {
   margin: 0;
-  color:rgb(14, 4, 11);
+  color:black;
   background:whitesmoke;
   font-family: 'Times New Roman', Times, serif;
   padding: 0;
@@ -11,73 +11,144 @@
   text-decoration-color: black;
   font-family: Helvetica;
 }
-
-#Avatar {
-  border-color: black;
-  float: left;
+  
+nav {
+  display: flex;
+  background-color:deeppink;
+  text-indent: 100px;
+       
 }
 
+h2{
+  font-size: 40px;
+}
+
+nav a {
+  color: black;
+  padding: 40px;
+  text-decoration:bold;
+  font-size: xx-large;
+  font-family: Helvetica;
+}
+.container{
+  color: black;
+  padding: 10px;
+  text-decoration:bold;
+  font-size: xxx-large;
+  font-family: Helvetica;
+}
+  
+#code {
+  border-style:solid
+}
+
+#avatar {
+  border-width: 20px;
+  border-color: deeppink 10px;
+  border-style:groove;
+  border-block-color: deeppink;
+  padding: 10px;
+ }
+
 #Pink{
- height: 250px;
- width: 100%;
+ height: 200px;
+ width: 150%;
   
 }
 
-#sidebar {
-  font-size: xx-large;
-  font-family: Helvetica; 
-  color: black;
-  float: left;
-  display:inline-block;
-  border-right: 5px solid rgb(19, 4, 4);
-  flex: 1;
-    
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content {
   font-size: large; 
   font-family: sans-serif;
-}
-
-.nav-links {
-  background: #e29ec7;
-  display: flex; 
-   font-size: xx-large;
-  text-decoration-color: black;
-  list-style-type: none;
-  justify-content:space-around;
-  overflow: hidden;
-   
-}
-
-#firstproject {
-  box-shadow: pink;
-    border: 36px rgb(182, 19, 119);
-  padding: 5px;
-  flex: 25px;
-}
-
-.projects {
-  flex: 3;
-  background-color: rgb(202, 120, 191);
-  padding: 20px;
-  justify-content: center;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  flex: 0 0 400px;
-}
-
-
-@media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
+  text-align: justify;
   }
-}
+
+.project-2 {
+  background-color:deeppink;
+  font-size: x-large;
+  font-weight:bolder;
+  text-decoration: black;
+  margin: 1px;
+  border: solid 20px;
+  padding:70px;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  border-width:3px;
+  
+ }
+
+.project-3 {
+
+  background-color:deeppink;
+  font-size: x-large;
+  font-weight:bolder;
+  text-decoration: black;
+  margin: 1px;
+  border: solid 20px;
+  padding:70px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-width:3px;
  
-.footer {
-  display: center;
-  margin-bottom: 25px;
+}
+
+
+.project-4 {
+  background-color:deeppink;
+  font-size: x-large;
+  font-weight:bolder;
+  text-decoration: black;
+  margin: 1px;
+  border: solid 20px;
+  padding:70px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-width:3px;
+  
+}
+
+
+.project-5 {
+  background-color:deeppink;
+  font-size: x-large;
+  font-weight:bolder;
+  text-decoration: black;
+  margin: 1px;
+  border: solid 20px;
+  padding:70px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-width:3px;
+
+}
+
+#firstproject{
+  background-color:deeppink;
+  font-size: x-large;
+  font-weight:bolder;
+  text-decoration: black;
+  margin: 5px;
+  border: solid 20px;
+  padding:70px;
+  justify-content: flex-start;
+  border-width: 5px;
+  flex-flow: column;
+}
+
+#footer {
+text-align: center;
+padding: 20px;
+font-weight: bold;
+font-size: 35px;
+
+}
+@media screen and (max-width: 700px) {
+main,
+nav{
+  flex-direction: column;
+   }
 }
