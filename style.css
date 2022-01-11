@@ -1,4 +1,5 @@
-* body {
+*/*Body should be styled accordingly*/
+ body {
   margin: 0;
   color:black;
   background:whitesmoke;
@@ -6,23 +7,29 @@
   padding: 0;
 }
 
+
+/*Header font-size is xxx-large and Helvetica for font family*/
 #Header{
   font-size:xxx-large;
   text-decoration-color: black;
   font-family: Helvetica;
 }
-  
+
+
+/*H2 Nav bar with deeppink color and text is indented*/
 nav {
   display: flex;
   background-color:deeppink;
   text-indent: 100px;
-       
+     
 }
 
+/*H2 font-size should be 40px*/
 h2{
   font-size: 40px;
 }
 
+/*Navigation bar & text*/
 nav a {
   color: black;
   padding: 40px;
@@ -30,6 +37,7 @@ nav a {
   font-size: xx-large;
   font-family: Helvetica;
 }
+/*Style div container*/
 .container{
   color: black;
   padding: 10px;
@@ -38,10 +46,7 @@ nav a {
   font-family: Helvetica;
 }
   
-#code {
-  border-style:solid
-}
-
+ /*Style Stephanie's Avatar with a cool border in deeppink*/
 #avatar {
   border-width: 20px;
   border-color: deeppink 10px;
@@ -50,23 +55,21 @@ nav a {
   padding: 10px;
  }
 
+ /*Adjust the Pink Line Magenta Pinterest logo backround*/
 #Pink{
  height: 200px;
  width: 150%;
   
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
+/*Style the About Me section*/
 .content {
   font-size: large; 
   font-family: sans-serif;
   text-align: justify;
   }
 
+/*Style project-2*/
 .project-2 {
   background-color:deeppink;
   font-size: x-large;
@@ -81,8 +84,8 @@ main {
   
  }
 
+ /*Style project-5*/
 .project-3 {
-
   background-color:deeppink;
   font-size: x-large;
   font-weight:bolder;
@@ -96,7 +99,7 @@ main {
  
 }
 
-
+/*Style project-4*/
 .project-4 {
   background-color:deeppink;
   font-size: x-large;
@@ -111,7 +114,7 @@ main {
   
 }
 
-
+/*Style project-5*/
 .project-5 {
   background-color:deeppink;
   font-size: x-large;
@@ -125,7 +128,7 @@ main {
   border-width:3px;
 
 }
-
+/*Linking my first web application in the WORK section of the website*/
 #firstproject{
   background-color:deeppink;
   font-size: x-large;
@@ -138,7 +141,7 @@ main {
   border-width: 5px;
   flex-flow: column;
 }
-
+/*Style footer*/
 #footer {
 text-align: center;
 padding: 20px;
@@ -146,8 +149,10 @@ font-weight: bold;
 font-size: 35px;
 
 }
+
+/*Media screen*/
 @media screen and (max-width: 800px) {
-main, .project-2, .project-3,.project-4, .project-5
+.project-2, .project-3,.project-4, .project-5
 nav{
   width: 100%; }
 }
