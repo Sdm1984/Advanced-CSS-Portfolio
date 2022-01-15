@@ -149,8 +149,8 @@ font-weight: bold;
 font-size: 35px;
 }
 
-/* Extra small devices (phones, 800px and down) */
-@media only screen and (max-width: 800px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
  #Pink, #avatar, .container,.content, .project-2, .project-3,.project-4, .project-5
 nav,#firstproject,#footer{
   width: 100%; 
@@ -158,8 +158,8 @@ nav,#firstproject,#footer{
 
 }
   
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (laptops/desktops, 700px and up) */
+@media only screen and (min-width: 700px) {
   #Pink, #avatar, .container,.content, .project-2, .project-3,.project-4, .project-5
   nav,#firstproject,#footer{
     width: 100%;
