@@ -154,5 +154,5 @@ font-size: 35px;
 @media screen and (max-width: 800px) {
 .project-2, .project-3,.project-4, .project-5
 nav{
-  width: 100%; }
-}
+    width: 100%; }
+  }
