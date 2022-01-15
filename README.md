@@ -2,7 +2,7 @@
 ## Submitted by Stephanie Mathis
 
 
-<img src="Stephanie's Avatar.png"> 
+<img src="./Assets/Images/Stephanie's Avatar.png"> 
 
 
 ## Acceptance Criteria - Copied from Homework Activity Readme
@@ -24,7 +24,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Portfolio Screenshot
 
-<img src="Screenshot.png"> 
+<img src="./Assets/Images/Screenshot.png"> 
 
 
 ## You are required to submit BOTH of the following for review:
