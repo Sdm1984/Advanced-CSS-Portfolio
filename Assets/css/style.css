@@ -48,11 +48,11 @@ nav a {
   
  /*Style Stephanie's Avatar with a cool border in deeppink*/
 #avatar {
-  border-width: 10px;
+  border-width: 20px;
   border-color: deeppink 10px;
   border-style:groove;
   border-block-color: deeppink;
-  padding: 5px;
+  padding: 10px;
    }
 
  /*Adjust the Pink Line Magenta Pinterest logo backround*/
@@ -64,7 +64,7 @@ nav a {
 
 /*Style the About Me section*/
 .content {
-  font-size: large; 
+  font-size: x-large; 
   font-family: sans-serif;
   text-align: justify;
   }
@@ -149,8 +149,8 @@ font-weight: bold;
 font-size: 35px;
 }
 
-/* Extra small devices (phones, 768px and down) */
-@media only screen and (max-width: 768px) {
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 800px) {
  #Pink, #avatar, .container,.content, .project-2, .project-3,.project-4, .project-5
 nav,#firstproject,#footer{
   width: 100%; 
